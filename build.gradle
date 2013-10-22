@@ -1,0 +1,32 @@
+apply plugin: 'android'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    compile 'com.actionbarsherlock:actionbarsherlock:4.4.0@aar'
+    compile 'com.android.support:support-v4:18.0.+'
+    compile 'com.google.android.gms:play-services:3.2.+'
+    compile 'com.google.code.gson:gson:2.2.4'
+    compile 'com.nostra13.universalimageloader:universal-image-loader:1.8.6'
+    compile 'ch.acra:acra:4.5.0'
+    compile 'de.greenrobot:eventbus:2.0.2'
+}
+
+android {
+    buildTypes {
+        release {
+            runProguard true
+            proguardFile 'proguard-acra.txt'
+            proguardFile 'proguard-action-bar-sherlock.txt'
+            proguardFile 'proguard-aws.txt'
+            proguardFile 'proguard-eventbus.txt'
+            proguardFile 'proguard-google-play-services.txt'
+            proguardFile 'proguard-gson.txt'
+            proguardFile 'proguard-project.txt'
+            proguardFile getDefaultProguardFile('proguard-android.txt')
+        }
+    }
+}
+
