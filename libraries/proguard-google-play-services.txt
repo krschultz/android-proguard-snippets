@@ -1,0 +1,5 @@
+## Google Play Services 3.2 specific rules ##
+
+-keep class * extends java.util.ListResourceBundle {
+    protected Object[][] getContents();
+}
