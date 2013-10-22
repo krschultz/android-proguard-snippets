@@ -1,4 +1,4 @@
-android-proguard-libraries
+android-proguard-snippets
 ==========================
 
 Example Proguard configurations for common Android libraries
