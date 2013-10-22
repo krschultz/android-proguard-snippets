@@ -9,7 +9,11 @@ android {
   buildTypes {
     release {
       runProguard true
+      // Library specific proguard files
+      proguardFile 'proguard-google-play-services.txt'
       proguardFile 'proguard-gson.txt'
+      ...
+      // Default proguard files
       proguardFile 'proguard-project.txt'
       proguardFile getDefaultProguardFile('proguard-android.txt')
     }
