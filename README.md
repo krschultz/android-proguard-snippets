@@ -26,5 +26,6 @@ android {
 * ActionBarSherlock 4.4.0
 * Amazon Web Services 1.6.1 / 1.7.0
 * EventBus 2.0.2
+* Google Analytics 3.0+
 * Google Play Services 3.2.+
 * GSON 2.2.4
