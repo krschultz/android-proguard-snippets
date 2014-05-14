@@ -27,6 +27,6 @@ android {
 * Amazon Web Services 1.6.1 / 1.7.0
 * EventBus 2.0.2
 * Google Analytics 3.0+
-* Google Play Services 3.2.+
+* Google Play Services 4.3.23
 * GSON 2.2.4
 * Flurry 3.4.0
