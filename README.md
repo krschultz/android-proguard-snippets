@@ -29,3 +29,4 @@ android {
 * Google Analytics 3.0+
 * Google Play Services 3.2.+
 * GSON 2.2.4
+* Flurry 3.4.0
