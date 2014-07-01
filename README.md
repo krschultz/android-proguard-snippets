@@ -30,4 +30,5 @@ android {
 * Google Play Services 4.3.23
 * GSON 2.2.4
 * Flurry 3.4.0
-* Square Otto 
+* Square Otto
+* Square Picasso
