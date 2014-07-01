@@ -1,4 +1,4 @@
-## Square Otto specific rules
+## Square Otto specific rules ##
 ## https://square.github.io/otto/ ##
 
 -keepclassmembers class ** {
