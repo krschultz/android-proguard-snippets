@@ -18,13 +18,13 @@ android {
     buildTypes {
         release {
             runProguard true
-            proguardFile 'proguard-acra.txt'
-            proguardFile 'proguard-action-bar-sherlock.txt'
-            proguardFile 'proguard-aws.txt'
-            proguardFile 'proguard-eventbus.txt'
-            proguardFile 'proguard-google-play-services.txt'
-            proguardFile 'proguard-gson.txt'
-            proguardFile 'proguard-project.txt'
+            proguardFile 'proguard-acra.pro'
+            proguardFile 'proguard-action-bar-sherlock.pro'
+            proguardFile 'proguard-aws.pro'
+            proguardFile 'proguard-eventbus.pro'
+            proguardFile 'proguard-google-play-services.pro'
+            proguardFile 'proguard-gson.pro'
+            proguardFile 'proguard-project.pro'
             proguardFile getDefaultProguardFile('proguard-android.txt')
         }
     }
