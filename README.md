@@ -10,11 +10,11 @@ android {
     release {
       runProguard true
       // Library specific proguard files
-      proguardFile 'proguard-google-play-services.txt'
-      proguardFile 'proguard-gson.txt'
+      proguardFile 'proguard-google-play-services.pro'
+      proguardFile 'proguard-gson.pro'
       ...
       // Default proguard files
-      proguardFile 'proguard-project.txt'
+      proguardFile 'proguard-project.pro'
       proguardFile getDefaultProguardFile('proguard-android.txt')
     }
   }
@@ -30,5 +30,6 @@ android {
 * Google Play Services 4.3.23
 * GSON 2.2.4
 * Flurry 3.4.0
+* New Relic
 * Square Otto
 * Square Picasso
