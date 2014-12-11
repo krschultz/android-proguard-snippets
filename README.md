@@ -34,6 +34,8 @@ android {
 * GSON 2.2.4
 * Facebook 3.2.0
 * Flurry 3.4.0
+* Joda-Time 2.3
+* Joda-Convert 1.6
 * New Relic
 * Square Otto
 * Square Picasso
