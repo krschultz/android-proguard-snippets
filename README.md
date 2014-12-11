@@ -8,7 +8,7 @@ Example Proguard configurations for common Android libraries
 android {
   buildTypes {
     release {
-      runProguard true
+      minifyEnabled true
       // Library specific proguard files
       proguardFile 'proguard-google-play-services.pro'
       proguardFile 'proguard-gson.pro'
