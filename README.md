@@ -37,5 +37,6 @@ android {
 * Joda-Time 2.3
 * Joda-Convert 1.6
 * New Relic
+* RxJava 0.21
 * Square Otto
 * Square Picasso
