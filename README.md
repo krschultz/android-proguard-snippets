@@ -26,6 +26,7 @@ android {
 * ActionBarSherlock 4.4.0
 * Amazon Web Services 1.6.1 / 1.7.0
 * Butterknife 5.1.2
+* Crashlytics 1.+
 * EventBus 2.0.2
 * Google Analytics 3.0+
 * Google Guava
