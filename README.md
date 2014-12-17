@@ -40,3 +40,4 @@ android {
 * RxJava 0.21
 * Square Otto
 * Square Picasso
+* Roboguice
