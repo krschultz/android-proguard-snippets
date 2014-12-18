@@ -45,6 +45,7 @@ android {
 * [Joda-Convert 1.6](http://www.joda.org/joda-convert/)
 * [Joda-Time 2.3](http://www.joda.org/joda-time/)
 * [New Relic](https://docs.newrelic.com/docs/mobile-monitoring/mobile-sdk-api/new-relic-mobile-sdk-api/working-android-sdk-api)
+* [Realm](http://realm.io/news/realm-for-android/)
 * [RxJava 0.21](https://github.com/ReactiveX/RxJava/wiki/The-RxJava-Android-Module)
 * [Sqlite](http://www.sqlite.org/index.html)
 * [Square Otto](http://square.github.io/otto/)
