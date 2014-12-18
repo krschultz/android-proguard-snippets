@@ -51,3 +51,4 @@ android {
 * [Square Otto](http://square.github.io/otto/)
 * [Square Picasso](https://github.com/square/picasso)
 * [Square Retrofit](http://square.github.io/retrofit/)
+* [Square Wire](https://github.com/square/wire)
