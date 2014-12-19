@@ -7,5 +7,6 @@
 
 # Only required if you use AsyncExecutor
 -keepclassmembers class * extends de.greenrobot.event.util.ThrowableFailureEvent {
-    (java.lang.Throwable);
+    public <init>(java.lang.Throwable);
 }
+
