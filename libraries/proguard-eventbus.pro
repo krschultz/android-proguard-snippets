@@ -1,5 +1,11 @@
-## EventBus 2.0.2 specific rules ##
+## GreenRobot EventBus specific rules ##
+# https://github.com/greenrobot/EventBus/blob/master/HOWTO.md#proguard-configuration
 
 -keepclassmembers class ** {
     public void onEvent*(**);
+}
+
+# Only required if you use AsyncExecutor
+-keepclassmembers class * extends de.greenrobot.event.util.ThrowableFailureEvent {
+    (java.lang.Throwable);
 }
