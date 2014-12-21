@@ -7,6 +7,8 @@ This project assumes that your ProGuard configuration is based off of the latest
 
 Request additional libraries through issues. Pull requests are welcome.
 
+[![Android Arsenal](https://img.shields.io/badge/Android%20Arsenal-android--proguard--snippets-brightgreen.svg?style=flat)](https://android-arsenal.com/details/3/1242)
+
 ### Usage
 ```groovy 
 android {
