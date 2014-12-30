@@ -44,6 +44,7 @@ android {
 * [Google Guava](https://code.google.com/p/guava-libraries/)
 * [Google Play Services 4.3.23](http://developer.android.com/google/play-services/setup.html)
 * [GSON 2.2.4](https://code.google.com/p/google-gson/)
+* [Jackson 2.x](http://wiki.fasterxml.com/JacksonHome)
 * [Joda-Convert 1.6](http://www.joda.org/joda-convert/)
 * [Joda-Time 2.3](http://www.joda.org/joda-time/)
 * [New Relic](https://docs.newrelic.com/docs/mobile-monitoring/mobile-sdk-api/new-relic-mobile-sdk-api/working-android-sdk-api)
