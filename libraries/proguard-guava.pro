@@ -16,5 +16,10 @@
     public static <fields>;
 }
 
+-keep class com.google.common.base.Joiner {
+    public static Joiner on(String);
+    public ** join(...);
+}
+
 -keep class com.google.common.collect.MapMakerInternalMap$ReferenceEntry
 -keep class com.google.common.cache.LocalCache$ReferenceEntry
