@@ -33,6 +33,7 @@ android {
 * [Amazon Web Services 1.6.x / 1.7.x](https://aws.amazon.com/releasenotes/Android/1855915734308772)
 * [Amazon Web Services 2.1.x](https://github.com/aws/aws-sdk-android)
 * [android-gif-drawable](https://github.com/koral--/android-gif-drawable)
+* [Apache Avro](http://http://avro.apache.org/)
 * [Butterknife 5.1.2](http://jakewharton.github.io/butterknife/)
 * [Crashlytics 1.+](http://try.crashlytics.com/sdk-android/)
 * [Crittercism](http://docs.crittercism.com/android/android.html)
