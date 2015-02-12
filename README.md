@@ -44,6 +44,7 @@ android {
 * [Google Analytics 3.0+](https://developers.google.com/analytics/devguides/collection/android/v3/)
 * [Google Guava](https://code.google.com/p/guava-libraries/)
 * [Google Play Services 4.3.23](http://developer.android.com/google/play-services/setup.html)
+* [GreenDao 1.3.x](http://greendao-orm.com/)
 * [GSON 2.2.4](https://code.google.com/p/google-gson/)
 * [Jackson 2.x](http://wiki.fasterxml.com/JacksonHome)
 * [Joda-Convert 1.6](http://www.joda.org/joda-convert/)
