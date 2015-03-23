@@ -54,6 +54,7 @@ android {
 * [Parse](https://parse.com/products/android)
 * [Realm](http://realm.io/news/realm-for-android/)
 * [RxJava 0.21](https://github.com/ReactiveX/RxJava/wiki/The-RxJava-Android-Module)
+* [Support Library v7](https://developer.android.com/tools/support-library/features.html#v7-appcompat)
 * [Sqlite](http://www.sqlite.org/index.html)
 * [Square OkHttp](http://square.github.io/okhttp/)
 * [Square Okio](https://github.com/square/okio)
