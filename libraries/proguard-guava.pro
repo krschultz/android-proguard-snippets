@@ -1,29 +1,25 @@
 # Configuration for Guava
-# Note, requires inclusion of jsr305.jar & javax.inject.jar
-# see http://www.marvinlabs.com/2013/01/22/android-proguard-and-guavas-event-bus-component/
-# or
-# see https://code.google.com/p/guava-libraries/wiki/UsingProGuardWithGuava
+#
+# disagrees with instructions provided by Guava project: https://code.google.com/p/guava-libraries/wiki/UsingProGuardWithGuava
+#
+# works if you add the following line to the Gradle dependencies
+#
+# provided 'javax.annotation:jsr250-api:1.0'
 
--libraryjars src/main/libs/jsr305-2.0.3.jar
--libraryjars src/main/libs/javax.inject.jar
-
--dontwarn sun.misc.Unsafe
--dontwarn com.google.common.collect.MinMaxPriorityQueue
-
--keep,allowoptimization class com.google.inject.** { *; }
--keep,allowoptimization class javax.inject.** { *; }
--keep,allowoptimization class javax.annotation.** { *; }
--keep,allowoptimization class com.google.inject.Binder
-
--keepclasseswithmembers public class * {
-    public static void main(java.lang.String[]);
+-keep class com.google.common.io.Resources {
+    public static <methods>;
+}
+-keep class com.google.common.collect.Lists {
+    public static ** reverse(**);
+}
+-keep class com.google.common.base.Charsets {
+    public static <fields>;
 }
 
--keepclassmembers,allowoptimization class com.google.common.* {
-    void finalizeReferent();
-    void startFinalizer(java.lang.Class,java.lang.Object);
+-keep class com.google.common.base.Joiner {
+    public static Joiner on(String);
+    public ** join(...);
 }
 
--keepclassmembers class * {
-       @com.google.common.eventbus.Subscribe *;
-}
+-keep class com.google.common.collect.MapMakerInternalMap$ReferenceEntry
+-keep class com.google.common.cache.LocalCache$ReferenceEntry
