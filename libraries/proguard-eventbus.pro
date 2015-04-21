@@ -10,3 +10,6 @@
     public <init>(java.lang.Throwable);
 }
 
+# Don't warn for missing support classes
+-dontwarn de.greenrobot.event.util.*$Support
+-dontwarn de.greenrobot.event.util.*$SupportManagerFragment
