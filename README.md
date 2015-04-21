@@ -33,6 +33,7 @@ android {
 * [ActiveAndroid](http://www.activeandroid.com/)
 * [Amazon Web Services 1.6.x / 1.7.x](https://aws.amazon.com/releasenotes/Android/1855915734308772)
 * [Amazon Web Services 2.1.x](https://github.com/aws/aws-sdk-android)
+* [AndroidAnnotations](http://androidannotations.org/)
 * [android-gif-drawable](https://github.com/koral--/android-gif-drawable)
 * [Apache Avro](http://http://avro.apache.org/)
 * [Butterknife 5.1.2](http://jakewharton.github.io/butterknife/)
