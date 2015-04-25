@@ -11,5 +11,5 @@
 -keep interface com.squareup.okhttp.** { *; }
 -keep class retrofit.** { *; }
 -keepclasseswithmembers class * {
-    @retrofit.http.* ;
+    @retrofit.http.* *;
 }
