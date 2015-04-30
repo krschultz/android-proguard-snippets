@@ -19,9 +19,12 @@ android {
       proguardFile 'proguard-google-play-services.pro'
       proguardFile 'proguard-gson.pro'
       ...
-      // Default proguard files
-      proguardFile 'proguard-project.pro'
+      // Default proguard files & project app specific rules,
+      //  see examples folder for more information
+      proguardFile 'proguard-project-app.pro'
       proguardFile getDefaultProguardFile('proguard-android.txt')
+      // As of Gradle Android plugin 1.1.0, the test APK has a separate config
+      testProguardFile 'proguard-project-test.pro'
     }
   }
 }

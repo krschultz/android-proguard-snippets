@@ -24,8 +24,9 @@ android {
             proguardFile 'proguard-eventbus.pro'
             proguardFile 'proguard-google-play-services.pro'
             proguardFile 'proguard-gson.pro'
-            proguardFile 'proguard-project.pro'
+            proguardFile 'proguard-project-app.pro'
             proguardFile getDefaultProguardFile('proguard-android.txt')
+            testProguardFile 'proguard-project-test.pro'
         }
     }
 }
