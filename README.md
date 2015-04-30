@@ -1,7 +1,7 @@
 android-proguard-snippets
 ==========================
 
-Example Proguard configurations for common Android libraries. 
+Example Proguard configurations for common Android libraries.
 
 This project assumes that your ProGuard configuration is based off of the latest official [proguard-android.txt](https://android.googlesource.com/platform/tools/base/+/HEAD/files/proguard-android.txt) config as shown below. Each library configuration should only be the rules required for that specific library, not a complete Android ProGuard configuration. The various library configurations are combined by the Gradle build system. The library rules should be universal, any app specific rules (such as preserving model classes) should be added in a custom `proguard-project.pro` file.
 
@@ -10,7 +10,7 @@ Request additional libraries through issues. Pull requests are welcome.
 [![Android Arsenal](https://img.shields.io/badge/Android%20Arsenal-android--proguard--snippets-brightgreen.svg?style=flat)](https://android-arsenal.com/details/3/1242)
 
 ### Usage
-```groovy 
+```groovy
 android {
   buildTypes {
     release {
@@ -63,3 +63,4 @@ android {
 * [Square Picasso](https://github.com/square/picasso)
 * [Square Retrofit](http://square.github.io/retrofit/)
 * [Square Wire](https://github.com/square/wire)
+* [Icepick](https://github.com/frankiesardo/icepick)
