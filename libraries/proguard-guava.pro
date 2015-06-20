@@ -23,3 +23,5 @@
 
 -keep class com.google.common.collect.MapMakerInternalMap$ReferenceEntry
 -keep class com.google.common.cache.LocalCache$ReferenceEntry
+
+-dontwarn sun.misc.Unsafe
