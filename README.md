@@ -67,3 +67,4 @@ android {
 * [Square Retrofit](http://square.github.io/retrofit/)
 * [Square Wire](https://github.com/square/wire)
 * [Icepick](https://github.com/frankiesardo/icepick)
+* [Simple-Xml] (http://simple.sourceforge.net/)
