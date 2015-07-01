@@ -2,7 +2,7 @@
 # https://github.com/greenrobot/EventBus/blob/master/HOWTO.md#proguard-configuration
 
 -keepclassmembers class ** {
-    public void onEvent*(**);
+    public void onEvent*(***);
 }
 
 # Only required if you use AsyncExecutor
