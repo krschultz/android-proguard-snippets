@@ -1,3 +1,5 @@
+# ButterKnife 6
+
 -keep class butterknife.** { *; }
 -dontwarn butterknife.internal.**
 -keep class **$$ViewInjector { *; }
