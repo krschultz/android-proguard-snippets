@@ -69,3 +69,15 @@ android {
 * [Square Wire](https://github.com/square/wire)
 * [Icepick](https://github.com/frankiesardo/icepick)
 * [Simple-Xml] (http://simple.sourceforge.net/)
+
+### ProGuard tip for android libraries developers
+The android libraries developers can include the proguard directives in the libraries. The Android Plugin for Gradle automatically appends ProGuard configuration files in an AAR (Android ARchive) package and appends that package to your ProGuard configuration
+
+The developers only need to specify the Proguard file with `consumerProguardFiles` instead of `proguardFiles`:
+
+```
+defaultConfig {
+    consumerProguardFiles 'proguard-file.txt'
+}
+```
+
