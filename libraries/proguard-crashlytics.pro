@@ -1,5 +1,4 @@
-# Crashlytics 1.+
+# Crashlytics 2.+
 
 -keep class com.crashlytics.** { *; }
--keepattributes SourceFile,LineNumberTable
-
+-keep class com.crashlytics.android.**
