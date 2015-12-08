@@ -78,7 +78,7 @@ The developers only need to specify the Proguard file with `consumerProguardFile
 
 ```
 defaultConfig {
-    consumerProguardFiles 'proguard-file.txt'
+    consumerProguardFiles 'proguard-file.pro'
 }
 ```
 
