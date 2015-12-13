@@ -57,7 +57,7 @@ android {
 * [New Relic](https://docs.newrelic.com/docs/mobile-monitoring/mobile-sdk-api/new-relic-mobile-sdk-api/working-android-sdk-api)
 * [Parse](https://parse.com/products/android)
 * [Realm](http://realm.io/news/realm-for-android/)
-* [RxJava 1.0.14](https://github.com/ReactiveX/RxJava)
+* [RxJava 1.1.0](https://github.com/ReactiveX/RxJava)
 * [Support Library v7](https://developer.android.com/tools/support-library/features.html#v7-appcompat)
 * [Sqlite](http://www.sqlite.org/index.html)
 * [Square OkHttp](http://square.github.io/okhttp/)
