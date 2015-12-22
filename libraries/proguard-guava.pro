@@ -13,7 +13,7 @@
 }
 
 -keep class com.google.common.base.Joiner {
-    public static Joiner on(String);
+    public static com.google.common.base.Joiner on(java.lang.String);
     public ** join(...);
 }
 
@@ -24,3 +24,8 @@
 -dontwarn javax.annotation.**
 -dontwarn javax.inject.**
 -dontwarn sun.misc.Unsafe
+
+# Guava 19.0
+-dontwarn java.lang.ClassValue
+-dontwarn com.google.j2objc.annotations.Weak
+-dontwarn org.codehaus.mojo.animal_sniffer.IgnoreJRERequirement
