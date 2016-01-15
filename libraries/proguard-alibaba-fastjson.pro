@@ -1,5 +1,5 @@
-#fastjson proguard rules
-#https://github.com/alibaba/fastjson
+# fastjson proguard rules
+# https://github.com/alibaba/fastjson
 
 -dontwarn com.alibaba.fastjson.**
 -keepattributes Signature
