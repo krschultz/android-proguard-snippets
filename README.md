@@ -40,6 +40,7 @@ proguardFiles(proGuardFileCollection)
 * [ACRA 4.5.0](https://github.com/ACRA/acra)
 * [ActionBarSherlock 4.4.0](http://actionbarsherlock.com/)
 * [ActiveAndroid](http://www.activeandroid.com/)
+* [Adjust](https://github.com/adjust/android_sdk)
 * [Amazon Web Services 1.6.x / 1.7.x](https://aws.amazon.com/releasenotes/Android/1855915734308772)
 * [Amazon Web Services 2.1.x](https://github.com/aws/aws-sdk-android)
 * [AndroidAnnotations](http://androidannotations.org/)
@@ -89,4 +90,3 @@ defaultConfig {
     consumerProguardFiles 'proguard-file.pro'
 }
 ```
-
