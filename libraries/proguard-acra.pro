@@ -27,16 +27,14 @@
 }
 
 # keep this otherwise it is removed by ProGuard
--keep public class org.acra.ErrorReporter
-{
+-keep public class org.acra.ErrorReporter {
     public void addCustomData(java.lang.String,java.lang.String);
     public void putCustomData(java.lang.String,java.lang.String);
     public void removeCustomData(java.lang.String);
 }
 
 # keep this otherwise it is removed by ProGuard
--keep public class org.acra.ErrorReporter
-{
+-keep public class org.acra.ErrorReporter {
     public void handleSilentException(java.lang.Throwable);
 }
 
