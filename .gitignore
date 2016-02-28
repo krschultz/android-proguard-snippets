@@ -30,3 +30,7 @@ proguard/
 
 # mac ds store file
 .DS_Store
+
+# Gradle files
+.gradle
+build

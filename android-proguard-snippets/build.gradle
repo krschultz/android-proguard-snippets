@@ -1,0 +1,20 @@
+apply plugin: 'android-sdk-manager'
+apply plugin: 'com.android.library'
+apply plugin: 'com.github.dcendents.android-maven'
+
+group='com.github.krschultz'
+
+android {
+    buildToolsVersion '23'
+    compileSdkVersion 23
+
+    defaultConfig {
+        versionName "1.0"
+        versionCode 100
+        minSdkVersion 9
+        targetSdkVersion 23
+
+        FileCollection proGuardFileCollection = files { file('../libraries').listFiles() }
+        consumerProguardFiles(proGuardFileCollection)
+    }
+}
