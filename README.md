@@ -35,6 +35,10 @@ Instead of declaring each configuration file manually, you could also store them
 FileCollection proGuardFileCollection = files { file('./proguard').listFiles() }
 proguardFiles(proGuardFileCollection)
 ```
+or
+```groovy
+fileTree(dir: 'proguard', include: '*.pro')
+```
 
 ### Libraries
 * [ACRA 4.5.0](https://github.com/ACRA/acra)
