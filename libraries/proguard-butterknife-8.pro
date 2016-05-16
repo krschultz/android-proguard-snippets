@@ -1,5 +1,6 @@
 # ButterKnife 8
-# This are already defined here: https://github.com/JakeWharton/butterknife/blob/master/butterknife/proguard-rules.txt
+# As of ButterKnife 8 the proguard rules are automatically included in your project
+# This are defined here: https://github.com/JakeWharton/butterknife/blob/master/butterknife/proguard-rules.txt
 
 # Retain generated class which implement ViewBinder.
 -keep public class * implements butterknife.internal.ViewBinder { public <init>(); }
