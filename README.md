@@ -32,7 +32,12 @@ android {
 
 Instead of declaring each configuration file manually, you could also store them in a seperate directory and include them all at once:
 ```groovy
-FileCollection proGuardFileCollection = files { file('./proguard').listFiles() }
+FileCollection proGuardFileCollection = files { file('./proguard').listFiles(new FilenameFilter() {
+                @Override
+                boolean accept(File dir, String filename) {
+                    return filename.toLowerCase().endsWith(".pro");
+                }
+            }) }
 proguardFiles(proGuardFileCollection)
 ```
 
