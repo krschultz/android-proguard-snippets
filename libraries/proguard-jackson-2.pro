@@ -7,3 +7,9 @@
 -keep class com.fasterxml.jackson.databind.ObjectWriter {
     public ** writeValueAsString(**);
 }
+#-keepnames class com.fasterxml.jackson.** { *; }
+-keep class com.fasterxml.jackson.annotation.** {
+   *;
+}
+-dontwarn org.w3c.dom.bootstrap.DOMImplementationRegistry
+-dontwarn java.beans.**
