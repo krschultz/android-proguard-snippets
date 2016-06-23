@@ -1,0 +1,3 @@
+-keep class com.couchbase.touchdb.TDCollateJSON { *; }
+-keep class com.couchbase.lite.android.AndroidLogger { *; }
+-keep class com.couchbase.lite.store.* { *; }
