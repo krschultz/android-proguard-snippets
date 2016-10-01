@@ -30,10 +30,31 @@ android {
 }
 ```
 
-Instead of declaring each configuration file manually, you could also store them in a seperate directory and include them all at once:
+Instead of declaring each configuration file manually, you could also store them in a `proguard` directory under your application module and include them all at once in default config:
 ```groovy
-FileCollection proGuardFileCollection = files { file('./proguard').listFiles() }
-proguardFiles(proGuardFileCollection)
+android {
+  defaultConfig {
+        ...
+        // Add default progurad file
+        proguardFile getDefaultProguardFile('proguard-android.txt')
+        // include all proguard rules from proguard folder in your module dir
+        proguardFiles fileTree(include: ['*.pro'], dir: 'proguard')
+  }
+}
+
+buildTypes {
+    debug {
+        debuggable true
+        minifyEnabled false
+        shrinkResources false
+    }
+    release {
+        debuggable false
+        minifyEnabled true
+        shrinkResources true
+    }
+}
+
 ```
 
 ### Libraries
