@@ -38,7 +38,7 @@ android {
         // Add default progurad file
         proguardFile getDefaultProguardFile('proguard-android.txt')
         // include all proguard rules from proguard folder in your module dir
-        proguardFiles fileTree(include: ['*.pro'], dir: 'proguard')
+        proguardFiles fileTree(include: ['*.pro'], dir: 'proguard').asList().toArray()
   }
 }
 
