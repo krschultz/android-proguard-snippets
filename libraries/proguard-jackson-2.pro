@@ -7,3 +7,8 @@
 -keep class com.fasterxml.jackson.databind.ObjectWriter {
     public ** writeValueAsString(**);
 }
+//for 2.8.5 to work on versions of android prior to L
+-keep class java.beans.Transient.** {*;}
+-keep class java.beans.ConstructorProperties.** {*;}
+-keep class java.nio.file.Path.** {*;}
+
