@@ -93,6 +93,7 @@ The developers only need to specify the Proguard file with `consumerProguardFile
 
 ```
 defaultConfig {
-    consumerProguardFiles 'proguard-file.pro'
+    consumerProguardFiles 'proguard-rules.pro'
+
 }
 ```
