@@ -1,5 +1,5 @@
 # Configuration for Fabric Twitter Kit
-# See: https://dev.twitter.com/twitter-kit/android/integrate
+# See: https://docs.fabric.io/android/twitter/overview.html
 
 -dontwarn com.squareup.okhttp.**
 -dontwarn com.google.appengine.api.urlfetch.**
