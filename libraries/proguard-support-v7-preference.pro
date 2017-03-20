@@ -1,0 +1,1 @@
+-keep public class * extends android.support.v7.preference.Preference { *; }
