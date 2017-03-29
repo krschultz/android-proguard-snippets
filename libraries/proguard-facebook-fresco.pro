@@ -1,9 +1,7 @@
-# Fresco v0.8.1 ProGuard rules.
-# https://github.com/facebook/fresco
+# Fresco v1.2.0 ProGuard rules.
+# https://raw.githubusercontent.com/facebook/fresco/master/proguard-fresco.pro
 
 -keep,allowobfuscation @interface com.facebook.common.internal.DoNotStrip
-
-# Do not strip any method/class that is annotated with @DoNotStrip
 -keep @com.facebook.common.internal.DoNotStrip class *
 -keepclassmembers class * {
     @com.facebook.common.internal.DoNotStrip *;
@@ -15,5 +13,8 @@
 }
 
 -dontwarn okio.**
+-dontwarn com.squareup.okhttp.**
+-dontwarn okhttp3.**
 -dontwarn javax.annotation.**
 -dontwarn com.android.volley.toolbox.**
+-dontwarn com.facebook.infer.**
