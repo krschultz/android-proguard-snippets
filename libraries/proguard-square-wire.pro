@@ -1,11 +1,6 @@
 # Square's wire configuration.
 
--keep class com.squareup.**{*;}
--keep public class * extends com.squareup.**{*;}
--dontwarn com.squareup.**
-
-# Keep methods with Wire annotations (e.g. @ProtoField)
--keepclassmembers class ** {
-    @com.squareup.wire.ProtoField public *;
-    @com.squareup.wire.ProtoEnum public *;
-}
+# Enum value mapping used via reflection.
+-keepclassmembers class * implements com.squareup.wire.WireEnum { public static ** fromValue(int); }
+# Message adapters are lookup up via reflection by name.
+-keepclassmembers class * extends com.squareup.wire.Message { public static com.squareup.wire.ProtoAdapter ADAPTER; }
