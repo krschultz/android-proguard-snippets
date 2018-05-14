@@ -10,14 +10,19 @@ Request additional libraries through issues. Pull requests are welcome.
 [![Android Arsenal](https://img.shields.io/badge/Android%20Arsenal-android--proguard--snippets-brightgreen.svg?style=flat)](https://android-arsenal.com/details/3/1242)
 
 ### Usage
+
+#### 1. Include the proguard files in your project
+First of all, add the repository as a git submodule (or just copy the proguard files in your project).
+
+#### 2. Integrate the proguard files in your project
 ```groovy
 android {
   buildTypes {
     release {
       minifyEnabled true
       // Library specific proguard files
-      proguardFile 'proguard-google-play-services.pro'
-      proguardFile 'proguard-gson.pro'
+      proguardFile '$PATH_TO_THE_PROGUARD_FILES/proguard-google-play-services.pro'
+      proguardFile '$PATH_TO_THE_PROGUARD_FILES/proguard-gson.pro'
       ...
       // Default proguard files & project app specific rules,
       //  see examples folder for more information
@@ -32,8 +37,7 @@ android {
 
 Instead of declaring each configuration file manually, you could also store them in a seperate directory and include them all at once:
 ```groovy
-FileCollection proGuardFileCollection = files { file('./proguard').listFiles() }
-proguardFiles(proGuardFileCollection)
+proguardFiles fileTree(dir: "$PATH_TO_THE_PROGUARD_FILES", include: ["*.pro"]).asList().toArray()
 ```
 
 ### Libraries
